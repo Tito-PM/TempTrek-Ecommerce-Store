@@ -1,1 +1,217 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4 {
+    color: #5e3ea1;
+}
+
+/* Header Styles */
+.header {
+    background-color: #5e3ea1;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #5e3ea1;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: white;
+    color: #5e3ea1;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+/* Features Section */
+.features {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-item {
+    flex-basis: 30%;
+    margin: 10px;
+}
+
+.feature-item img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+/* Product Section */
+.product {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.product-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-image {
+    width: 300px;
+}
+
+.product-details {
+    max-width: 500px;
+    text-align: left;
+}
+
+.price {
+    font-size: 1.5rem;
+    color: #5e3ea1;
+    margin: 20px 0;
+}
+
+.buy-button {
+    background-color: #5e3ea1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Reviews Section */
+.reviews {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.review-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.review-item {
+    flex-basis: 30%;
+    margin: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Experience Form Section */
+.user-experience {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.experience-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.experience-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #5e3ea1;
+}
+
+.experience-form input,
+.experience-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.submit-button {
+    background-color: #5e3ea1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #5e3ea1;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
 
